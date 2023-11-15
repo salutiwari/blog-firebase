@@ -7,7 +7,7 @@ import { db } from "../firebase/config";
 function Page() {
   const { user } = useAuthContext();
   const router = useRouter();
-  console.log(db, "db");
+  console.log(db, "dbs");
   // db.collection("blogs")
   //   .orderBy("quote", "asc")
   //   .get()
